@@ -73,6 +73,28 @@ $(function(){
 
 	});
 
+	$('.li1').click(function(){
+		
+		var offset = $('.main_03').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
+
+	$('.li2').click(function(){
+		
+		var offset = $('.main_05').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
+
+	$('.li3').click(function(){
+		
+		var offset = $('.main_06').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
+
+
 
 
 
