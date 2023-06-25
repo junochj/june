@@ -84,9 +84,9 @@ button{background-color: transparent;}
 
 .side_button_02{float:right;background:url(./sidebar_02.png) no-repeat;height:705px;margin-top:77px;position:absolute;margin-left:1680px;}
 
-.side_button_03{float:right;background:url(./idebar_03.png) no-repeat;height:705px;margin-top:77px;position:absolute;margin-left:1680px;}
+.side_button_03{float:right;background:url(./sidebar_03.png) no-repeat;height:705px;margin-top:77px;position:absolute;margin-left:1680px;}
 
-.side_button_04{float:right;background:url(./isidebar_04.png) no-repeat;height:705px;margin-top:77px;position:absolute;margin-left:1680px;}
+.side_button_04{float:right;background:url(./sidebar_04.png) no-repeat;height:705px;margin-top:77px;position:absolute;margin-left:1680px;}
 
 .window_inwrap4{width:1200px;margin:0 auto;}
 .window_inwrap4>h3{margin-top:140px;font-size:35px;background:url(./bar.png) no-repeat;float:left;width:545px;text-align:left;height:65px; background-position:right bottom;}
