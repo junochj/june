@@ -94,9 +94,52 @@ $(function(){
 
 	});
 
+	$('.main_01').on("mousewheel", function(){
+		
+		var offset = $('.main_02').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
+
+	$('.main_02').on("mousewheel", function(){
+		
+		var offset = $('.main_03').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
+
+	$('.main_03').on("mousewheel", function(){
+		
+		var offset = $('.main_04').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
+
+	$('.main_04').on("mousewheel", function(){
+		
+		var offset = $('.main_05').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
+
+	$('.main_05').on("mousewheel", function(){
+		
+		var offset = $('.main_06').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
+
+	$('.main_06').on("mousewheel", function(){
+		
+		var offset = $('.main_01').offset(); 
+		$('html,body').stop().animate({scrollTop : offset.top}, 400);
+
+	});
 
 
 
+
+/*
 
 	var mHtml = $("html");
 	var page = 1;
@@ -125,6 +168,8 @@ $(function(){
 		mHtml.stop().animate({scrollTop : posTop});
 
 	});
+
+	*/
 
 });
 
