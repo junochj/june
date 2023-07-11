@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>최현준 포트폴리오</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery-3.2.1.js"></script>
+<script src="motion.js"></script>
+
+<style>
+
+@font-face {
+    font-family: 'LOTTERIADDAG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3,.tit{font-family: 'LOTTERIADDAG';}
+
+</style>
+
+</head>
+<body>
+
+	<div style="overflow: hidden;">
+
+		<div class="sub_01">
+			<div class="window_wrap_02">
+				<div class="window_button2">
+					<button>
+						<img class="wbtn3" src="./btn_03.jpg">
+					</button>
+				</div>
+				<div class="side_button_01">
+					<button>
+						<img class="up1" src="./up.png">
+					</button>
+					<button>
+						<img class="down1" src="./down.png">
+					</button>
+				</div>
+			
+				<div class="window_inwrap3">
+					<img class="window_inwrap3_img" src="./port_07.png">
+					<div>
+						<h3>리노보 강남</h3>
+						<p><b><img src="./원.jpg">  클라이언트</b><br>리노보 강남 <br><br>
+							<b><img src="./원.jpg">  작업툴</b><br>포토샵, 일러스트레이터<br><br>
+							<b><img src="./원.jpg">  작업내용</b><br>여신티켓 어플광고 디자인<br><br>
+							<b><img src="./원.jpg">  PDF</b><br><a href="./05.pdf" target="_blank">pdf 보러가기</a><br><br>
+
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="sub_01">
+			<div class="window_wrap_02">
+				<div class="window_button2">
+					<button>
+						<img class="wbtn3" src="./btn_03.jpg">
+					</button>
+				</div>
+				<div class="side_button_02">
+					<button>
+						<img class="up1" src="./up.png">
+					</button>
+					<button>
+						<img class="down1" src="./down.png">
+					</button>
+				</div>
+			
+				<div class="window_inwrap3">
+					<img class="window_inwrap3_img" src="./port_08.png">
+					<div>
+						<h3>다시온 클리닉</h3>
+						<p><b><img src="./원.jpg">  클라이언트</b><br>다시온 클리닉 <br><br>
+							<b><img src="./원.jpg">  작업툴</b><br>포토샵, 일러스트레이터<br><br>
+							<b><img src="./원.jpg">  작업내용</b><br>바비톡 어플광고 디자인<br><br>
+							<b><img src="./원.jpg">  PDF</b><br><a href="./06.pdf" target="_blank">pdf 보러가기</a><br><br>
+
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="sub_01">
+			<div class="window_wrap_02">
+				<div class="window_button2">
+					<button>
+						<img class="wbtn3" src="./btn_03.jpg">
+					</button>
+				</div>
+				<div class="side_button_04">
+					<button>
+						<img class="up1" src="./up.png">
+					</button>
+					<button>
+						<img class="down1" src="./down.png">
+					</button>
+				</div>
+			
+				<div class="window_inwrap3">
+					<img class="window_inwrap3_img" src="./port_09.png">
+					<div>
+						<h3>조인스엠</h3>
+						<p><b><img src="./원.jpg">  클라이언트</b><br>조인스엠 <br><br>
+							<b><img src="./원.jpg">  작업툴</b><br>포토샵, 일러스트레이터<br><br>
+							<b><img src="./원.jpg">  작업내용</b><br>크몽 어플광고 디자인<br><br>
+							<b><img src="./원.jpg">  PDF</b><br><a href="./07.pdf" target="_blank">pdf 보러가기</a><br><br>
+
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+
+
+
+</body>
+
+<script language="javaScript" type="text/javascript">
+	
+const content = "현준 포트폴리오"
+const text = document.querySelector(".tit")
+let i = 0;
+
+function typing(){
+    if (i < content.length) {
+    let txt = content.charAt(i);
+    text.innerHTML += txt;
+    i++;
+    }
+}
+setInterval(typing, 300)
+
+</script>
+
+</html>

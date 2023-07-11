@@ -93,5 +93,14 @@ button{background-color: transparent;}
 .window_inwrap4{width:1200px;margin:0 auto;}
 .window_inwrap4>h3{margin-top:140px;font-size:35px;background:url(./bar.png) no-repeat;float:left;width:545px;text-align:left;height:65px; background-position:right bottom;}
 .window_inwrap4>div{float:left;}
-.window_inwrap4>div>a>div{font-size:18px;margin-top:40px;background:url(./폴더.png) no-repeat;height:87px;width:140px;float:left;margin-right:40px;cursor:pointer;} 
+.window_inwrap4>div>a>div{font-size:18px;margin-top:40px;margin-bottom:20px;background:url(./폴더.png) no-repeat;height:87px;width:140px;float:left;margin-right:40px;cursor:pointer;} 
 .window_inwrap4>div>a>div>b>div{padding-top:95px;text-align:center;}
+
+
+
+
+
+/*sub*/
+
+.sub_01{width:100%;height:980px;background:url(./window_02bak.jpg)  no-repeat center / cover;}
+.sbtn2{}

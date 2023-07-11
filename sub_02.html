@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>최현준 포트폴리오</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="jquery-3.2.1.js"></script>
+<script src="motion.js"></script>
+
+<style>
+
+@font-face {
+    font-family: 'LOTTERIADDAG';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/LOTTERIADDAG.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,h2,h3,.tit{font-family: 'LOTTERIADDAG';}
+
+</style>
+
+</head>
+<body>
+
+	<div style="overflow: hidden;">
+
+		<div class="sub_01">
+			<div class="window_wrap_02">
+				<div class="window_button2">
+					<button>
+						<img class="wbtn3" src="./btn_03.jpg">
+					</button>
+				</div>
+				<div class="side_button_01">
+					<button>
+						<img class="up1" src="./up.png">
+					</button>
+					<button>
+						<img class="down1" src="./down.png">
+					</button>
+				</div>
+			
+				<div class="window_inwrap3">
+					<img class="window_inwrap3_img" src="./port_02.png">
+					<div>
+						<h3>타토아 강남</h3>
+						<p><b><img src="./원.jpg">  클라이언트</b><br>타토아 강남 <br><br>
+							<b><img src="./원.jpg">  작업툴</b><br>포토샵, 일러스트레이터<br><br>
+							<b><img src="./원.jpg">  작업내용</b><br>신규 서브페이지 15건 디자인<br><br>
+							<b><img src="./원.jpg">  주소</b><br><a href="http://tatoaclinic.co.kr/page/lifting/lifting_main.php" target="_blank">http://tatoaclinic.co.kr/page/lifting/lifting_main.php</a><br><br>
+							<b><img src="./원.jpg">  PDF</b><br><a href="./02.pdf" target="_blank">pdf 보러가기</a><br><br>
+
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="sub_01">
+			<div class="window_wrap_02">
+				<div class="window_button2">
+					<button>
+						<img class="wbtn3" src="./btn_03.jpg">
+					</button>
+				</div>
+				<div class="side_button_02">
+					<button>
+						<img class="up1" src="./up.png">
+					</button>
+					<button>
+						<img class="down1" src="./down.png">
+					</button>
+				</div>
+			
+				<div class="window_inwrap3">
+					<img class="window_inwrap3_img" src="./port_04.png">
+					<div>
+						<h3>리뉴얼 의원</h3>
+						<p><b><img src="./원.jpg">  클라이언트</b><br>리뉴얼 의원<br><br>
+							<b><img src="./원.jpg">  작업툴</b><br>포토샵, 일러스트레이터<br><br>
+							<b><img src="./원.jpg">  작업내용</b><br>서브페이지 디자인<br><br>
+							<b><img src="./원.jpg">  주소</b><br><a href="http://www.psrenewall.com/new2018/mn02/mn02_profound.html?mn=2&sn=1" target="_blank">http://www.psrenewall.com/new2018/mn02/mn02_profound.html?mn=2&sn=1</a><br><br>
+							<b><img src="./원.jpg">  PDF</b><br><a href="./03.pdf" target="_blank">pdf 보러가기</a><br><br>
+
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="sub_01">
+			<div class="window_wrap_02">
+				<div class="window_button2">
+					<button>
+						<img class="wbtn3" src="./btn_03.jpg">
+					</button>
+				</div>
+				<div class="side_button_04">
+					<button>
+						<img class="up1" src="./up.png">
+					</button>
+					<button>
+						<img class="down1" src="./down.png">
+					</button>
+				</div>
+			
+				<div class="window_inwrap3">
+					<img class="window_inwrap3_img" src="./port_05.png">
+					<div>
+						<h3>벨다드 클리닉</h3>
+						<p><b><img src="./원.jpg">  클라이언트</b><br>벨다드 클리닉<br><br>
+							<b><img src="./원.jpg">  작업툴</b><br>포토샵, 일러스트레이터<br><br>
+							<b><img src="./원.jpg">  작업내용</b><br>서브페이지 디자인<br><br>
+							<b><img src="./원.jpg">  주소</b><br><a href="http://beldad.co.kr/new2016/mn05/mn05_02.html?lv=5&lv2=32" target="_blank">http://beldad.co.kr/new2016/mn05/mn05_02.html?lv=5&lv2=32</a><br><br>
+							<b><img src="./원.jpg">  PDF</b><br><a href="./04.pdf" target="_blank">pdf 보러가기</a><br><br>
+
+						</p>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+
+
+
+</body>
+
+<script language="javaScript" type="text/javascript">
+	
+const content = "현준 포트폴리오"
+const text = document.querySelector(".tit")
+let i = 0;
+
+function typing(){
+    if (i < content.length) {
+    let txt = content.charAt(i);
+    text.innerHTML += txt;
+    i++;
+    }
+}
+setInterval(typing, 300)
+
+</script>
+
+</html>
