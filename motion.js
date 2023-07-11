@@ -94,6 +94,8 @@ $(function(){
 
 	});
 
+	/*
+
 	$('.main_01').on("mousewheel", function(){
 		
 		var offset = $('.main_02').offset(); 
@@ -135,6 +137,8 @@ $(function(){
 		$('html,body').stop().animate({scrollTop : offset.top}, 400);
 
 	});
+
+	*/
 
 
 
