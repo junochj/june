@@ -96,6 +96,10 @@ button{background-color: transparent;}
 .window_inwrap4>div>a>div{font-size:18px;margin-top:40px;margin-bottom:20px;background:url(./폴더.png) no-repeat;height:87px;width:140px;float:left;margin-right:40px;cursor:pointer;} 
 .window_inwrap4>div>a>div>b>div{padding-top:95px;text-align:center;}
 
+.window_inwrap3>div{letter-spacing:-1px;}
+.window_inwrap4{letter-spacing:-1px;}
+
+
 
 
 
